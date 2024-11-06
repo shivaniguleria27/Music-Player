@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - your favourite is here</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav class="nav">
+      <ul>
+        <li class="brand"><img src="logo.png" /> spotify</li>
+        <li>Home</li>
+        <li>About</li>
+      </ul>
+    </nav>
+    
+    <div class="container">
+      <div class="songList">
+        <h1>Best of NCS - non copyright sounds</h1>
+        <div class="songItemContainer">
+          <div class="songItem">
+            <img src="10.jpg" alt="" srcset="" />
+            <span class="songName">Let me love you</span>
+            <span class="songItemPlay"><span class="timeStamp">05:34<i id="1"class="fa-solid songItemPlay fa-play"></i></span>
+            </span>
+          </div>
+        
+          <div class="songItem">
+            <img src="4.jpg" alt="" srcset="" />
+            <span class="songName">pretty woman</span>
+            <span class="songItemPlay"><span class="timeStamp">03:45<i id="2"class="fa-solid songItemPlay fa-play"></i></span>
+            </span>
+          </div>
+          <div class="songItem">
+            <img src="5.jpg" alt="" srcset="" />
+            <span class="songName">Back it Up</span>
+            <span  class="songItemPlay"><span class="timeStamp">04:14<i id="3" class="fa-solid songItemPlay fa-play"></i></span>
+            </span>
+          </div>
+          <div class="songItem">
+            <img src="6.jpg" alt="" srcset="" />
+            <span class="songName">Just two of us</span>
+            <span class="songItemPlay"><span class="timeStamp">05:34<i id="4" class="fa-solid songItemPlay fa-play"></i></span>
+            </span>
+          </div>
+          <div class="songItem">
+            <img src="8.jpg" alt="" srcset="" />
+            <span class="songName">Love me like you do</span>
+            <span class="songItemPlay"><span class="timeStamp">05:34<i  id="5"class="fa-solid songItemPlay fa-play"></i></span>
+            </span>
+          </div>
+          <div class="songItem">
+            <img src="7.jpg" alt="" srcset="" />
+            <span class="songName"> A Thousands years</span>
+            <span class="songItemPlay"><span class="timeStamp">05:34<i id="6" class="fa-solid songItemPlay fa-play"></i></span>
+            </span>
+          </div>
+        </div>
+        <div class="slider-thumb"></div>
+      </div>
+      <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+      <input type="range" name="range" id="myProgresBar" value="" min="0" max="100" />
+      <div class="icons">
+       
+        <i class="fa-solid  fa-backward-step" id="previous"></i>
+         <i class="fa-solid fa-play" id="masterPlay"></i>
+        <i class="fa-solid fa-forward-step" id="next"></i>
+        
+      </div>
+      <div class="songInfo">
+        <img src="playing.gif" width="52px" alt="" srcset="" id="gif"><span id="masterSongName">Let me love you - Justin beiber</span>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/b896116f15.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

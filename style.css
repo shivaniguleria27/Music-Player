@@ -1,0 +1,120 @@
+body {
+  background-color: black;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  height: 65px;
+  color: white;
+  background-color: black;
+  transition: 0.5s;
+}
+
+ul li:hover {
+  transform: scale(1);
+  opacity: 1;
+  filter: blur(0);
+  text-decoration: none;
+  color: #26b9d3;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(90deg, #050505, #328d37, #192f33);
+}
+
+nav ul li {
+  padding: 0 12px;
+  cursor: pointer;
+}
+.brand img {
+  width: 44px;
+  padding: 0 8px;
+}
+.brand {
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  align-items: center;
+}
+.container {
+  min-height: 58vh;
+  display: flex;
+  color: white;
+  width: 70%;
+  padding: 34px;
+  border-radius: 12px;
+  margin: 23px auto;
+  background-color: black;
+  background-image: url("bg.jpg");
+  background-position: center;
+  box-shadow: 1px 1px 1px 3px white;
+}
+.bottom {
+  position: sticky;
+  background-color: black;
+  height: 130px;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  flex-direction: column;
+}
+.icons {
+  margin-top: 14px 0;
+}
+.icons i {
+  cursor: pointer;
+  padding-top: 1rem;
+}
+#myProgresBar {
+  width: 80vw;
+  cursor: pointer;
+}
+.songItemContainer {
+  margin-top: 44px;
+}
+.songItem {
+  height: 50px;
+  background-color: white;
+  display: flex;
+  margin: 12px 0;
+  color: black;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 34px;
+}
+.songItemPlay i {
+  padding: 5px;
+  size: 0.5rem;
+}
+.songItem img {
+  width: 43px;
+  border-radius: 2rem;
+  /*height: 51px;*/
+  margin: 5px 10px;
+}
+.timeStamp {
+  margin: 0 23px;
+}
+.timeStamp i {
+  cursor: pointer;
+}
+.songInfo img {
+  padding-right: 1rem;
+  opacity: 0;
+  padding-top: 1rem;
+  transition: opacity 0.3s ease-in;
+}
+.songInfo {
+  position: absolute;
+  left: 10vw;
+  padding-top: 1em;
+  /*justify-content: space-between;
+  align-items: center;*/
+}
